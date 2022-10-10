@@ -1,0 +1,252 @@
+.About {
+    height: 89.6vh;
+    background-color: rgb(71, 70, 70);
+    width: 100%;
+}
+
+.about-txt h1 {
+    margin: 0 auto;
+    width: 220px;
+    padding: 30px 0 0 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.about-txt h1::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgb(151, 150, 150);
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+.about-txt h1:hover::after {
+    transform: scaleX(1);
+}
+
+.tech-skills {
+    margin-top: 50px;
+}
+
+.tech-skills h1 {
+    color: #FFFFFF;
+}
+
+.tech-skills ul {
+    margin-top: 15px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.tech-skills ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    background-color: #313131;
+    color: rgb(255, 255, 255);
+    border: solid #222;
+    border-width: 1px 1px 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: .95rem;
+    box-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
+    margin: 3px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.skills {
+    align-items: center;
+    display: flex;
+    width: 100px;
+
+}
+
+.skills p {
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.skills img {
+    margin: 0 10px;
+    width: 20%;
+}
+
+.other-skulls {
+    margin-top: 50px;
+}
+
+.other-skulls h1 {
+    color: #FFFFFF;
+}
+
+.other-skulls ul {
+    margin-top: 15px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-skulls ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    background-color: #313131;
+    color: #999;
+    border: solid #222;
+    border-width: 1px 1px 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: .95rem;
+    box-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
+    margin: 3px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.About-Item {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Items {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    text-align: center;
+    width: 300px;
+}
+
+.item img {
+    border-radius: 15px;
+    background-color: #dbdbdb;
+    padding: 10px;
+    width: 50px;
+}
+
+.item h1 {
+    color: #313131;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.item p {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skil {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.skil_txt {
+    margin-top: 150px;
+    width: 500px;
+}
+
+.skil_txt h1 {
+    margin-bottom: 20px;
+    font-family: 'Roboto',
+        sans-serif;
+    color: #FFFFFF;
+}
+
+.skil_txt p {
+    color: #bebebe;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+@media screen and (max-width:1000px) {
+    .Items {
+        flex-wrap: wrap;
+    }
+
+    .item {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .About {
+        height: 100%;
+    }
+
+    .skil {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .Items {
+        justify-content: center;
+    }
+    .skil_txt h1{
+        text-align: center;
+    }
+    .skil_txt p{
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+    .tech-skills h1 {
+        text-align: center;
+    }
+
+    .tech-skills ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .other-skulls h1 {
+        text-align: center;
+    }
+
+    .other-skulls ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}

@@ -1,0 +1,25 @@
+.Typewriter {
+    margin-top: 20px;
+}
+
+.Typewriter__wrapper {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(184, 184, 92);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Typewriter__cursor {
+    font-size: 25px;
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+    .Typewriter {
+        margin-top: 10px;
+    }
+
+    .Typewriter__wrapper {
+        font-size: 15px;
+    }
+}
