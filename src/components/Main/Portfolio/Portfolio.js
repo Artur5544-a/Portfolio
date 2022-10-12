@@ -7,9 +7,10 @@ import Calculator from '../../../img/portfolioImg/Calculator.png'
 import caesar from '../../../img/portfolioImg/caesar.png'
 import chartjs from '../../../img/portfolioImg/Chartjs.png'
 import messenger from '../../../img/portfolioImg/messanger.png'
+import semart from '../../../img/portfolioImg/semart.png'
 
 export const Portfolio = () => {
-    
+
     return (
 
         < div className='Portfolio' >
@@ -58,6 +59,12 @@ export const Portfolio = () => {
                         <a href="https://Artur5544-a.github.io/MessengerApp/" target={"_blank"}><img src={messenger} /></a>
                     </div>
                     <h3>MessengerApp</h3>
+                </div>
+                <div className='portfolio_item'>
+                    <div className='portfolio_item_img'>
+                        <a href="https://Artur5544-a.github.io/Semart-Wireframe/" target={"_blank"}><img src={semart} /></a>
+                    </div>
+                    <h3>Semart Wireframe</h3>
                 </div>
             </div >
         </div >

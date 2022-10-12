@@ -37,7 +37,7 @@ export const TechSkills = () => {
                 </li>
                 <li>
                     <div className='skills'>
-                        <p><img src={redux} />Resux</p>
+                        <p><img src={redux} />Redux</p>
                     </div>
                 </li>
             </ul>
