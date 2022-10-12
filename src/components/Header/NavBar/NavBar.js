@@ -19,7 +19,7 @@ export const NavBar = () => {
             <ul className={`open ${menu ? "opennav" : ""}`} onClick={() => setMenu(false)}>
                 <li><NavLink to='/' >Home </NavLink></li>
                 <li> <NavLink to='/About' >About</NavLink></li>
-                <li><NavLink to='/Portfolio'>Portfolio</NavLink></li>
+                <li><NavLink to='/Portfollio'>Portfolio</NavLink></li>
                 <li><NavLink to='/Contact'>Contact</NavLink></li>
             </ul>
         </nav>
