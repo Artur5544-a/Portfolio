@@ -60,7 +60,7 @@ export const Contact = () => {
           </div>
         </div>
       </form>
-      <nav className="menu">
+      {/* <nav className="menu">
         <input type="checkbox" href="#" className="menu-open" name="menu-open" id="menu-open" />
         <label className="menu-open-button" for="menu-open">
           <span className="lines line-1"></span>
@@ -71,7 +71,7 @@ export const Contact = () => {
         <a href='https://www.linkedin.com/in/artur-art-317261217/' target={"_blank"} className="menu-item green"><BsLinkedin /> </a>
         <a href='https://www.facebook.com/artur.beazyan/' target={"_blank"} className="menu-item red"><BsFacebook /> </a>
         <a href='https://t.me/Artur5544' target={"_blank"} className="menu-item lightblue"><BsTelegram /> </a>
-      </nav>
+      </nav> */}
     </div>
   )
 }

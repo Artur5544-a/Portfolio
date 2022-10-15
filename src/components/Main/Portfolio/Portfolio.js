@@ -26,12 +26,6 @@ export const Portfolio = () => {
                 </div>
                 <div className='portfolio_item'>
                     <div className='portfolio_item_img'>
-                        <a href="https://artur5544-a.github.io/" target={"_blank"} ><img src={ojjo} /> </a>
-                    </div>
-                    <h3>Ojjo</h3>
-                </div>
-                <div className='portfolio_item'>
-                    <div className='portfolio_item_img'>
                         <a href="https://Artur5544-a.github.io/weiss/" target={"_blank"} ><img src={weiss} /> </a>
                     </div>
                     <h3>Weiss</h3>

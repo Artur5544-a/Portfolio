@@ -2,6 +2,7 @@
     height: 89.6vh;
     background-color: rgb(71, 70, 70);
     width: 100%;
+    padding: 20px;
 }
 
 .about-txt h1 {
@@ -219,10 +220,12 @@
     .Items {
         justify-content: center;
     }
-    .skil_txt h1{
+
+    .skil_txt h1 {
         text-align: center;
     }
-    .skil_txt p{
+
+    .skil_txt p {
         padding: 10px;
     }
 
