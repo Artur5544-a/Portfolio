@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     background: #2c2b2bbf;
-    height: 89.6vh;
+    height: 100vh;
     z-index: 99;
 }
 
@@ -12,7 +12,7 @@
     border-radius: 6px;
     position: absolute;
     top: 30%;
-    left: 37%;
+    left: 38%;
     transform: translate(-50% -50%);
     text-align: center;
     padding: 0 30px 30px;
@@ -46,29 +46,40 @@
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width:1300px) {
+    .popup {
+        left: 35%;
+    }
+
+}
+
 @media screen and (max-width:1000px) {
-    .popup{
+    .popup {
         left: 30%;
     }
-    
+
 }
+
 @media screen and (max-width:720px) {
     .popup {
-        left: 27%;
+        left: 29%;
         width: 300px;
     }
 
 }
-@media screen and (max-width:720px) {
+
+@media screen and (max-width:550px) {
     .popup {
-        left: 18%;
-       
+        left: 27%;
+        width: 250px;
     }
 
 }
+
 @media screen and (max-width:400px) {
     .popup {
-        left: 10%;
+        left: 11%;
         width: 250px;
     }
 

@@ -26,12 +26,6 @@ export const Portfolio = () => {
                 </div>
                 <div className='portfolio_item'>
                     <div className='portfolio_item_img'>
-                        <a href="https://Artur5544-a.github.io/weiss/" target={"_blank"} ><img src={weiss} /> </a>
-                    </div>
-                    <h3>Weiss</h3>
-                </div>
-                <div className='portfolio_item'>
-                    <div className='portfolio_item_img'>
                         <a href="https://Artur5544-a.github.io/Caesar-Cipher/" target={"_blank"} ><img src={caesar} /> </a>
                     </div>
                     <h3>Caesar cipher</h3>
@@ -47,12 +41,6 @@ export const Portfolio = () => {
                         <a href="https://Artur5544-a.github.io/ChartJs/" target={"_blank"} ><img src={chartjs} /> </a>
                     </div>
                     <h3>ChartJs</h3>
-                </div>
-                <div className='portfolio_item'>
-                    <div className='portfolio_item_img'>
-                        <a href="https://Artur5544-a.github.io/MessengerApp/" target={"_blank"}><img src={messenger} /></a>
-                    </div>
-                    <h3>MessengerApp</h3>
                 </div>
                 <div className='portfolio_item'>
                     <div className='portfolio_item_img'>

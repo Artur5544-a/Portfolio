@@ -1,5 +1,5 @@
 .About {
-    height: 89.6vh;
+    height: 100%;
     background-color: rgb(71, 70, 70);
     width: 100%;
     padding: 20px;
@@ -206,9 +206,6 @@
 }
 
 @media screen and (max-width:900px) {
-    .About {
-        height: 100%;
-    }
 
     .skil {
         justify-content: center;
