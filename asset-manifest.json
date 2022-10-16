@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.16872199.css",
-    "main.js": "/Portfolio/static/js/main.3e47d913.js",
+    "main.css": "/Portfolio/static/css/main.41e68ecb.css",
+    "main.js": "/Portfolio/static/js/main.f6ccddae.js",
     "static/media/weather.png": "/Portfolio/static/media/weather.535251188e3e654aa37a.png",
     "static/media/semart.png": "/Portfolio/static/media/semart.0d730e8ccb42cc9dbc4a.png",
-    "static/media/ojjo.png": "/Portfolio/static/media/ojjo.cd8494229280b605a53b.png",
-    "static/media/weiss.png": "/Portfolio/static/media/weiss.9f3760f8f55877e29a97.png",
     "static/media/Chartjs.png": "/Portfolio/static/media/Chartjs.f970b472427ceeec7b59.png",
-    "static/media/messanger.png": "/Portfolio/static/media/messanger.4c0662218a6c6d68c35d.png",
     "static/media/Artur_Beyazyan.pdf": "/Portfolio/static/media/Artur_Beyazyan.0cbd96c8f41542ffb364.pdf",
     "static/media/Calculator.png": "/Portfolio/static/media/Calculator.70d8952438dc67eb57d0.png",
     "static/media/caesar.png": "/Portfolio/static/media/caesar.5b591d3988be43051f4b.png",
@@ -26,11 +23,11 @@
     "static/media/html.svg": "/Portfolio/static/media/html.c28bc66880bc822f7aedbda70b2bf142.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/npm.svg": "/Portfolio/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg",
-    "main.16872199.css.map": "/Portfolio/static/css/main.16872199.css.map",
-    "main.3e47d913.js.map": "/Portfolio/static/js/main.3e47d913.js.map"
+    "main.41e68ecb.css.map": "/Portfolio/static/css/main.41e68ecb.css.map",
+    "main.f6ccddae.js.map": "/Portfolio/static/js/main.f6ccddae.js.map"
   },
   "entrypoints": [
-    "static/css/main.16872199.css",
-    "static/js/main.3e47d913.js"
+    "static/css/main.41e68ecb.css",
+    "static/js/main.f6ccddae.js"
   ]
 }
