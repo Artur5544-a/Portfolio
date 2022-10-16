@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import './Portfolio.css'
 import weather from '../../../img/portfolioImg/weather.png'
-import ojjo from '../../../img/portfolioImg/ojjo.png'
-import weiss from '../../../img/portfolioImg/weiss.png'
 import Calculator from '../../../img/portfolioImg/Calculator.png'
 import caesar from '../../../img/portfolioImg/caesar.png'
 import chartjs from '../../../img/portfolioImg/Chartjs.png'
-import messenger from '../../../img/portfolioImg/messanger.png'
 import semart from '../../../img/portfolioImg/semart.png'
 
 export const Portfolio = () => {
