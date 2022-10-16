@@ -20,7 +20,7 @@ export const Portfolio = () => {
             <div className='portfolio_block'>
                 <div className='portfolio_item'>
                     <div className='portfolio_item_img'>
-                        <a href="https://Artur5544-a.github.io/Weather" target={"_blank"} ><img src={weather} /> </a>
+                        <a href="https://artur5544-a.github.io/WeaterApp/" target={"_blank"} ><img src={weather} /> </a>
                     </div>
                     <h3>weather  App</h3>
                 </div>
